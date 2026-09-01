@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>阳风雪日 · 个人主页</title>
+<meta name="description" content="阳风雪日的个人介绍页 —— 阿尔托莉雅·潘德拉贡 × 两仪式 作为装饰。" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<!-- ============================= TOP NAV ============================= -->
+<header class="topbar" id="topbar">
+  <div class="topbar__inner">
+    <a class="brand" href="#index">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__text">阳风雪日</span>
+    </a>
+
+    <nav class="topnav" aria-label="主导航">
+      <a class="topnav__link is-active" href="#index">INDEX<span class="topnav__sub">首页</span></a>
+      <a class="topnav__link" href="#about">ABOUT<span class="topnav__sub">关于</span></a>
+      <a class="topnav__link" href="#skills">SKILLS<span class="topnav__sub">技能</span></a>
+      <a class="topnav__link" href="#projects">PROJECTS<span class="topnav__sub">作品</span></a>
+      <a class="topnav__link" href="#contact">CONTACT<span class="topnav__sub">联系</span></a>
+    </nav>
+
+    <div class="topbar__actions">
+      <button class="iconbtn" type="button" aria-label="分享"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M8 12a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm8-6a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm-8 6 8-4M8 14l8 4"/></svg></button>
+      <button class="iconbtn" type="button" aria-label="信号"><svg viewBox="0 0 24 24" width="18" height="18"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 18V8M9 18V5M14 18v-9M19 18V3"/></g></svg></button>
+      <a class="iconbtn" href="#about" aria-label="用户"><svg viewBox="0 0 24 24" width="18" height="18"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="8" r="3.4"/><path d="M5 20c1.4-3.2 4-4.6 7-4.6s5.6 1.4 7 4.6"/></g></svg></a>
+    </div>
+  </div>
+  <div class="topbar__scan"><span></span></div>
+</header>
+
+<!-- ============================= HERO ============================= -->
+<section class="hero" id="index">
+  <div class="hero__bg" style="background-image:url('assets/saber-hero.png')"></div>
+  <div class="hero__watermark" aria-hidden="true">XUERI</div>
+  <div class="hero__frame" aria-hidden="true"></div>
+
+  <div class="hero__content">
+    <p class="eyebrow mono">HELLO&nbsp;WORLD // <span class="eyebrow__num">00</span></p>
+    <h1 class="hero__title">阳风雪日</h1>
+    <p class="hero__jp">STUDENT&nbsp;·&nbsp;CODING&nbsp;&amp;&nbsp;ACGN</p>
+    <div class="hero__rule"><span></span><span></span></div>
+    <p class="hero__desc">
+      一名喜欢编程与 ACGN 的学生。页面以两位角色的立绘为装饰，记录兴趣、技能与一点点自我表达。
+    </p>
+    <div class="hero__cta">
+      <a class="btn btn--solid" href="#about">了解我 <span class="mono">ABOUT</span></a>
+      <a class="btn btn--ghost" href="#projects">看作品 <span class="mono">PROJECTS</span></a>
+    </div>
+  </div>
+
+  <div class="hero__meta mono">
+    <span>MY MOTTO</span>
+    <span class="hero__meta-dot"></span>
+    <span>就算是神，我也要杀给你看。</span>
+    <span class="hero__meta-dot"></span>
+    <span>XUERI</span>
+  </div>
+
+  <div class="hero__scroll mono" aria-hidden="true">
+    <span>SCROLL</span><i></i>
+  </div>
+
+  <div class="hero__index mono">00&nbsp;&nbsp;//&nbsp;&nbsp;05</div>
+
+  <!-- floating side panel -->
+  <aside class="sidepanel" aria-hidden="true">
+    <div class="sidepanel__head mono">// 01 / 05&nbsp;&nbsp;HOMEPAGE</div>
+    <a class="sidepanel__row" href="#about">个人简介</a>
+    <a class="sidepanel__row" href="#skills">技能兴趣</a>
+    <a class="sidepanel__row" href="#projects">作品项目</a>
+    <a class="sidepanel__row" href="#contact">联系方式</a>
+  </aside>
+</section>
+
+<!-- ============================= TICKER ============================= -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track mono">
+    <span>阳风雪日</span><b>◆</b>
+    <span>STUDENT</span><b>◆</b>
+    <span>CODING &amp; ACGN</span><b>◆</b>
+    <span>就算是神，我也要杀给你看</span><b>◆</b>
+    <span>XUERI</span><b>◆</b>
+    <span>アルトリア &amp; 両儀式</span><b>◆</b>
+  </div>
+</div>
+
+<!-- ============================= ABOUT ============================= -->
+<section class="section section--profile" id="about">
+  <header class="section__head">
+    <div>
+      <p class="mono eyebrow">ABOUT / 关于我</p>
+      <h2 class="section__title">自我<span class="section__title-cn">与</span>标签</h2>
+    </div>
+    <p class="section__lead mono">02 — PROFILE</p>
+  </header>
+
+  <div class="cards">
+    <!-- 自我介绍 -->
+    <article class="card">
+      <div class="card__media" style="background-image:url('assets/saber-back.jpg')"></div>
+      <div class="card__body">
+        <div class="card__tags mono">
+          <span>STUDENT</span><span>ACGN</span><span>CREATOR</span>
+        </div>
+        <h3 class="card__name">我是谁<span class="card__name-en">/ WHO I AM</span></h3>
+        <p class="card__text">
+          【自我介绍 · 占位】在这里写一段你自己的介绍：你的性格、你在做的事、你正在学习或热爱的东西…… 一两段话即可，点击下方可展开更多。
+        </p>
+        <div class="card__stats mono">
+          <div><span>身份</span><b>学生</b></div>
+          <div><span>方向</span><b>编程 / ACGN</b></div>
+          <div><span>坐标</span><b>你的城市</b></div>
+        </div>
+        <button class="card__more" type="button">展开更多 <span class="mono">+</span></button>
+      </div>
+      <div class="card__corner" aria-hidden="true"></div>
+    </article>
+
+    <!-- 兴趣与标签 -->
+    <article class="card">
+      <div class="card__media" style="background-image:url('assets/shiki-hero.jpg')"></div>
+      <div class="card__body">
+        <div class="card__tags mono">
+          <span>兴趣</span><span>爱好</span><span>标签</span>
+        </div>
+        <h3 class="card__name">兴趣与标签<span class="card__name-en">/ INTERESTS</span></h3>
+        <p class="card__text">
+          【标签 · 占位】把你在意的关键词加进来：二次元、游戏、音乐、阅读、摄影、科幻…… 页面会以标签形式展示，方便别人快速认识你。
+        </p>
+        <div class="card__stats mono">
+          <div><span>动漫</span><b>Fate / 空之境界</b></div>
+          <div><span>形式</span><b>立绘装饰</b></div>
+          <div><span>态度</span><b>保持好奇</b></div>
+        </div>
+        <button class="card__more" type="button">展开更多 <span class="mono">+</span></button>
+      </div>
+      <div class="card__corner" aria-hidden="true"></div>
+    </article>
+  </div>
+</section>
+
+<!-- ============================= QUOTE / SHIKI (decorative) ============================= -->
+<section class="showcase" id="motto">
+  <div class="hero__bg" style="background-image:url('assets/shiki-hero.jpg')"></div>
+  <div class="hero__watermark" aria-hidden="true">SHIKI</div>
+  <div class="showcase__content">
+    <p class="eyebrow mono">MY MOTTO // <span class="eyebrow__num">03</span></p>
+    <h2 class="showcase__title">就算是神，<br/>我也要杀给你看</h2>
+    <p class="showcase__jp">EVEN&nbsp;A&nbsp;GOD&nbsp;·&nbsp;I&nbsp;WOULD&nbsp;KILL&nbsp;IT</p>
+    <p class="showcase__text">
+      「就算是神，我也要杀给你看。」<br/>
+      我的座右铭 —— 也是两仪式的名台词。愿以此为信念，面对难题绝不退缩。
+    </p>
+  </div>
+  <div class="hero__index mono">03&nbsp;&nbsp;//&nbsp;&nbsp;05</div>
+</section>
+
+<!-- ============================= SKILLS ============================= -->
+<section class="section section--world" id="skills">
+  <header class="section__head">
+    <div>
+      <p class="mono eyebrow">SKILLS / 技能与兴趣</p>
+      <h2 class="section__title">所学<span class="section__title-cn">与</span>所爱</h2>
+    </div>
+    <p class="section__lead mono">03 — SKILLS</p>
+  </header>
+
+  <div class="worldgrid">
+    <div class="wcard">
+      <span class="wcard__no mono">01</span>
+      <h3>编程 / 技术栈</h3>
+      <p class="mono">DEV STACK</p>
+      <p class="wcard__text"><!-- 占位：替换成你会的语言/框架 -->Python · JavaScript · C++ · Git · Web 前端 · Linux · 数据库 · 算法</p>
+    </div>
+    <div class="wcard">
+      <span class="wcard__no mono">02</span>
+      <h3>兴趣 / 爱好</h3>
+      <p class="mono">HOBBIES</p>
+      <p class="wcard__text"><!-- 占位 -->动漫 / 二次元 · 游戏 · 音乐 · 阅读 · 摄影 · 科幻 · 模型</p>
+    </div>
+    <div class="wcard">
+      <span class="wcard__no mono">03</span>
+      <h3>正在学习</h3>
+      <p class="mono">LEARNING</p>
+      <p class="wcard__text"><!-- 占位 -->在这里填你正在钻研或想入门的方向，例如某个框架、语言或技能。</p>
+    </div>
+    <div class="wcard">
+      <span class="wcard__no mono">04</span>
+      <h3>想做的事</h3>
+      <p class="mono">GOALS</p>
+      <p class="wcard__text"><!-- 占位 -->写下你的目标或愿景：做一款自己的作品、学好某门技术、去看一次漫展……</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= PROJECTS ============================= -->
+<section class="section section--media" id="projects">
+  <header class="section__head">
+    <div>
+      <p class="mono eyebrow">PROJECTS / 作品项目</p>
+      <h2 class="section__title">做过<span class="section__title-cn">的</span>事</h2>
+    </div>
+    <p class="section__lead mono">04 — PROJECTS</p>
+  </header>
+
+  <p class="projects__note mono">// 项目内容可以留空，先在这里占位，后续补充你的作品。</p>
+
+  <div class="projectgrid">
+    <article class="pcard">
+      <div class="pcard__thumb" style="background-image:url('assets/saber-duo.jpg')"></div>
+      <div class="pcard__body">
+        <p class="mono">PROJECT 01</p>
+        <h3>作品占位标题</h3>
+        <p class="pcard__text">一句话描述这个项目做了什么、用了什么技术。（占位，可替换）</p>
+      </div>
+    </article>
+    <article class="pcard">
+      <div class="pcard__thumb" style="background-image:url('assets/shiki-modern.png')"></div>
+      <div class="pcard__body">
+        <p class="mono">PROJECT 02</p>
+        <h3>作品占位标题</h3>
+        <p class="pcard__text">一句话描述这个项目做了什么、用了什么技术。（占位，可替换）</p>
+      </div>
+    </article>
+    <article class="pcard pcard--empty">
+      <div class="pcard__body pcard__body--center">
+        <p class="mono">PLACEHOLDER</p>
+        <h3>＋ 更多项目</h3>
+        <p class="pcard__text">这里可以是你的下一个作品……</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============================= CONTACT ============================= -->
+<section class="section section--more" id="contact">
+  <header class="section__head">
+    <div>
+      <p class="mono eyebrow">CONTACT / 联系我</p>
+      <h2 class="section__title">找我<span class="section__title-cn">聊聊</span></h2>
+    </div>
+  </header>
+  <p class="more__text">
+    如果想和我交流编程、动漫，或是想约个合作，可以通过下面的方式找到我。
+    页面的视觉灵感致敬了其中 <span class="hl">阿尔托莉雅·潘德拉贡</span> 与 <span class="hl">两仪式</span> 的立绘仅作为装饰展示。
+  </p>
+  <div class="contacts mono">
+    <a class="contact" href="https://github.com/doctor-dcf" target="_blank" rel="noopener">
+      <span class="contact__ic">⌥</span>
+      <span class="contact__lb">GITHUB</span>
+      <span class="contact__val">github.com/doctor-dcf <i class="contact__arr">↗</i></span>
+    </a>
+    <a class="contact" href="3941825337@qq.com">
+      <span class="contact__ic">✉</span>
+      <span class="contact__lb">EMAIL</span>
+      <span class="contact__val">123456789<i class="contact__arr">↗</i></span>
+    </a>
+    <a class="contact" href="#index">
+      <span class="contact__ic">◈</span>
+      <span class="contact__lb">电话</span>
+      <span class="contact__val">123456789<i class="contact__arr">↗</i></span>
+    </a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__brand">
+    <span class="brand__mark" aria-hidden="true"></span>
+    <div>
+      <p class="footer__name">阳风雪日</p>
+      <p class="footer__sub mono">PERSONAL SITE // AK-STYLE DEMO</p>
+    </div>
+  </div>
+  <p class="footer__copyright mono">&copy;&nbsp;2026&nbsp;阳风雪日&nbsp;·&nbsp;页面由本人制作，用于自我介绍&nbsp;|&nbsp;角色立绘仅为装饰</p>
+</footer>
+
+<div class="progressbar" id="progressbar"><span></span></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
